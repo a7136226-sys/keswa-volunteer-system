@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 
-import volunteerRoutes from './routes/volunteers.js';
+import volunteerRoutes from './routes/volunteers.routes.js';
 
 const app = express();
 
